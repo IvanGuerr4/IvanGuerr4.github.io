@@ -80,7 +80,7 @@ img.pull-left { margin-right: 10px; }
 	.widget-simplenav { margin-left:-5px; }		
 	.widget-simplenav a{ margin:0 5px; }		
 
-	.carrusel {
+	.carruselindex {
 		width: 800px;
 		height: 600px;
 		margin: 50px auto 0;
@@ -88,19 +88,19 @@ img.pull-left { margin-right: 10px; }
 		position: relative; /* Para asegurarnos de que todo dentro del carrusel esté bien posicionado */
 	}
 	
-	.carrusel ul {
+	.carruselindex ul {
 		display: flex;
 		padding: 0;
 		width: 400%; /* Esto asegura que las imágenes se desplacen a lo largo del carrusel */
 		animation: slide 5s infinite alternate ease-in-out;
 	}
 	
-	.carrusel li {
+	.carruselindex li {
 		flex: 1; /* Las imágenes ocupan cada una su espacio del 100% */
 		list-style: none;
 	}
 	
-	.carrusel img {
+	.carruselindex img {
 		width: 100%;
 		height: auto; /* Mantiene la relación de aspecto de las imágenes */
 		object-fit: cover; /* Esto asegura que las imágenes se ajusten correctamente al espacio */
