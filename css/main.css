@@ -80,6 +80,12 @@ img.pull-left { margin-right: 10px; }
 	.widget-simplenav { margin-left:-5px; }		
 	.widget-simplenav a{ margin:0 5px; }		
 
+	.container2{
+		height: 100vh;
+		width: 100vh;
+		display: grid;
+		place-content: center;
+	}
 	.carruselindex {
 		width: 800px;
 		height: 600px;
